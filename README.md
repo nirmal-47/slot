@@ -1,5 +1,5 @@
 # Ex02 Time Table
-## Date:
+## Date:8.12.25
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -27,9 +27,120 @@ Add your course schedule using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
+<html>
+    <body style="font-family: 'Times New Roman';">
 
+        <!-- COLLEGE BANNER FROM PROVIDED URL -->
+        <div style="text-align:center;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcaRJf5gDrxVN9XNsyCs-KV5ddOaQcbzT2yg&s"
+                 alt="College Banner"
+                 style="width:900px; height:130px; object-fit:contain;">
+        </div>
+
+        <br>
+
+        
+        <table border="1" cellspacing="2" cellpadding="2" align="center">
+            <caption style="font-size:20px; font-weight:bold;">
+                SLOT TIME TABLE - NIRMAL.M (25014734)
+            </caption>
+
+            <tr bgcolor="red">
+                <th>Day/time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+
+            <tr>
+                <td bgcolor="yellow">8-10</td>
+                <td bgcolor="cyan">Public Speaking</td>
+                <td bgcolor="cyan">Public Speaking</td>
+                <td bgcolor="cyan">Web Application</td>
+                <td bgcolor="cyan">Free Slot</td>
+                <td bgcolor="cyan">Public Speaking</td>
+                <td bgcolor="cyan">Free Slot</td>
+            </tr>
+
+            <tr>
+                <td bgcolor="yellow">10-12</td>
+                <td bgcolor="cyan">Free Slot</td>
+                <td bgcolor="cyan">Web Application</td>
+                <td bgcolor="cyan">Public Speaking</td>
+                <td bgcolor="cyan">Free Slot</td>
+                <td bgcolor="cyan">Free Slot</td>
+                <td bgcolor="cyan">C Programming</td>
+            </tr>
+
+            <tr>
+                <td bgcolor="yellow">12-1</td>
+                <td bgcolor="cyan" colspan="6" align="center">LUNCH</td>
+            </tr>
+
+            <tr>
+                <td bgcolor="yellow">1-3</td>
+                <td bgcolor="cyan">C Programming</td>
+                <td bgcolor="cyan">C Programming</td>
+                <td bgcolor="cyan">Mentor Meet</td>
+                <td bgcolor="cyan">Free Slot</td>
+                <td bgcolor="cyan">Free Slot</td>
+                <td bgcolor="cyan">Free Slot</td>
+            </tr>
+
+            <tr>
+                <td bgcolor="yellow">3-5</td>
+                <td bgcolor="cyan">Web Application</td>
+                <td bgcolor="cyan">Web Application</td>
+                <td bgcolor="cyan">Web Application</td>
+                <td bgcolor="cyan">C Programming</td>
+                <td bgcolor="cyan">Free Slot</td>
+                <td bgcolor="cyan">C Programming</td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        
+        <table border="1" cellspacing="0" cellpadding="6"
+               style="border-collapse: collapse; width: 700px; font-size: 18px;"
+               align="center">
+
+            <tr>
+                <th>S.No</th>
+                <th>Subject Code</th>
+                <th>Subject Name</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>19AI304</td>
+                <td>Fundamentals of C Programming</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>19AI414</td>
+                <td>Fundamentals of Web Application Development</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>19EN105</td>
+                <td>Public Speaking</td>
+            </tr>
+
+        </table>
+
+    </body>
+</html>
+```
 
 ## OUTPUT
+<img width="1340" height="755" alt="Screenshot 2025-12-08 213143" src="https://github.com/user-attachments/assets/70af87ce-0456-467b-be14-84a21af8b802" />
 
 
 ## RESULT
